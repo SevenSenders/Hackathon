@@ -13,6 +13,7 @@ jobs:
       with:
         username: ${{ secrets.atlassianUsername }}
         apitoken: ${{ secrets.atlassianApitoken }}
+        docsdir: 'page'
         
         
         
