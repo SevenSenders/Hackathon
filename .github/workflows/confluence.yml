@@ -1,4 +1,5 @@
 on: [push]
+name: confluence-publish
 jobs:
   publish_confluence:
     runs-on: ubuntu-latest
