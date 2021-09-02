@@ -12,3 +12,6 @@ jobs:
         pwd
         cd hackthon
         pwd
+        ./gradlew clean build
+        java -jar build/libs/hackthon-0.0.1-SNAPSHOT.jar 
+
