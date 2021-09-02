@@ -1,8 +1,5 @@
 
-on: 
-  push:
-    branches:
-      - master
+on: push
 name: Custom Workflow
 jobs:
   release-note:
@@ -10,5 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - run: |
+    - name: release 
+      run: |
         pwd
